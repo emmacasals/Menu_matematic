@@ -1,0 +1,114 @@
+select count(distinct) if null 
+
+
+
+menu matematic.
+CADANa deles opcions metode
+un metode que fica el menu 
+segons la tecla que apreta va a un dels diferents metodes
+
+
+
+fitxa angel
+practica
+acabar documentacio git
+
+
+main que crida un metode que es inici/
+
+
+ sudo mkdir docs-per treballar com administrador el sudo al davant
+ls| sort -->fa un llistat i l'ordena alfabeticament. sort (ordena alfabeticament)
+
+quants fitxers amb tty hi ha al directori /dev? ls | grep tty
+ls | grep tty | wc -l
+ls llistat -treu nomes els que tinguin tty - wc -l et diu el numero de linies que té
+
+
+main crides com a minim una vegada al metode
+
+
+1.No mostrar els resultats directament a la consola 
+2.Passar informacio per parametres i no demanar-la sempre.
+
+static void main(string[] args)
+{
+Inici ();
+}
+
+canviar color lletra cuadrat ficar un compt pk desaparegui temps
+1.maxim
+2.mcd
+3.mcm
+4.factorial
+5.combinatori
+6.major divisor
+7.comprovar primer
+8.n primers
+
+0.sortir
+
+introdueix una opcio
+
+
+crud wpf c#
+c# wpf crud
+
+canviar el pattern del dni 
+provocar canvis en 2 atributs i 2 elements
+elements canviarlos
+
+provocar fallos a les regles
+en quan al dni/nif 
+als atributs
+
+switch(key)
+caseconsolekey(
+´
+
+
+int a,b;
+switch(opcio)
+{
+case'1':
+a=introduccuiovalor()
+b=introduccuiovalor()
+console.clear();
+capçalera();
+maxim(ref a,ref b);
+console.writeline(centrartextmenu("{0} és major que {1}."),a,b);
+return();
+break;
+case'2':
+a=introduccuiovalor()
+b=introduccuiovalor()
+console.clear();
+capcalera();
+maxim (ref a,ref b);
+MCD(a,b);
+break;
+case'3':
+a=introduccuiovalor()
+b=introduccuiovalor()
+console.clear();
+capcalera();
+maxim (ref a,ref b);
+MCm(a,b);
+break
+
+case'4':
+a=introduccuiovalor()
+console.clear();
+capcalera();
+CONSOLE.WRITELINE (
+maxim (ref a,ref b);
+MCD(a,b);
+break
+
+
+maxim de 2 numeros digui quin es el maxim
+
+}
+
+console.writeline("introdueix un valor)
+valo
