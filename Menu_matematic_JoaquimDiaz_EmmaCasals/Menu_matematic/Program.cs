@@ -17,10 +17,7 @@ static void Main(string[] args)
 }
 static int Menu(int R)
 {
-    R = Convert.ToInt32(Console.ReadLine());
     //Crear un menu. Et te que tornar el numero que has posat en el menu per saber quan el programa pot parar (quan poses 0).
-    if (R == 0)
-        return R;
     Console.Clear();
     Console.WriteLine("MENÚ D'OPCIONS MATEMÀTIQUES");
     Console.WriteLine("\n" +
@@ -35,7 +32,8 @@ static int Menu(int R)
         "\n 9.-SORTIDA \n");
     Console.WriteLine("Selecciona la opció que desitja: ");
     R = Convert.ToInt32(Console.ReadLine());
-
+    if (R == 0)
+        return R;
     switch (R)
     {
         case 1:
