@@ -17,11 +17,59 @@ static void Main(string[] args)
 }
 static int Menu(int R)
 {
-
     R = Convert.ToInt32(Console.ReadLine());
     //Crear un menu. Et te que tornar el numero que has posat en el menu per saber quan el programa pot parar (quan poses 0).
     if (R == 0)
         return R;
+    Console.Clear();
+    Console.WriteLine("MENÚ D'OPCIONS MATEMÀTIQUES");
+    Console.WriteLine("\n" +
+        "\n 1.-MAXIM" +
+        "\n 2.-MCD" +
+        "\n 3.-MCM" +
+        "\n 4.-FACTORIAL" +
+        "\n 5.-COMBINATORI" +
+        "\n 6.-MOSTRAR DIVISOR MAJOR" +
+        "\n 7.-ES PRIMER" +
+        "\n 8.-NPRIMERS PRIMERS" +
+        "\n 9.-SORTIDA \n");
+    Console.WriteLine("Selecciona la opció que desitja: ");
+    R = Convert.ToInt32(Console.ReadLine());
+
+    switch (R)
+    {
+        case 1:
+            Maxim();
+            break;
+        case 2:
+            MCD();
+            break;
+        case 3:
+            MCM();
+            break;
+        case 4:
+            Factorial();
+            break;
+        case 5:
+            Combinatori();
+            break;
+        case 6:
+            MostrarDivisorMajor();
+            break;
+        case 7:
+            EsPrimer();
+            break;
+        case 8:
+            NPrimersPrimers();
+            break;
+        case 9:
+            Console.WriteLine("Estas sortint del menú d'operacions");
+            break;
+        default:
+            Console.WriteLine("Introdueix una opció vàlida,sisplau");
+            break;
+    }
+    Console.ReadKey();
     return R;
 }
 //Maxim
