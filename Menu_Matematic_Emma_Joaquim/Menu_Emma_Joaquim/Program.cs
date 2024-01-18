@@ -17,7 +17,7 @@ namespace Menu_Emma_Joaquim
         //dissabte a les 23:59
 
         //MAIN:Fem la crida de les altres funcions 
-        static void Main(string[] args)
+        static void Main(string args)
         {
             string R = "";
             do
@@ -43,6 +43,7 @@ namespace Menu_Emma_Joaquim
             Console.Write("Selecciona la opció que desitja: ");
             R = Console.ReadLine();
             int num, num1, num2;
+            bool resultat;
             switch (R)
             {
                 case "1":
@@ -59,42 +60,59 @@ namespace Menu_Emma_Joaquim
                     Timer(R);
                     break;
                 case "3":
-                    DemanarValors();
+                    num1 = DemanarValors();
+                    num2 = DemanarValors();
                     MCM();
                     Timer(R);
                     break;
                 case "4":
-                    DemanarValors();
+                    num1 = DemanarValors();
+                    num2 = DemanarValors();
                     Factorial();
                     Timer(R);
                     break;
                 case "5":
-                    DemanarValors();
+                    num1 = DemanarValors();
+                    num2 = DemanarValors();
                     Combinatori();
                     Timer(R);
                     break;
                 case "6":
-                    DemanarValors();
-                    MostrarDivisorMajor();
+                    num1 = DemanarValors();
+                    num = MostrarDivisorMajor(num1);
+                    R = "El divisor major és: " + num;
                     Timer(R);
                     break;
                 case "7":
-                    DemanarValors();
-                    EsPrimer();
+                    num1 = DemanarValors();
+                    resultat = EsPrimer(num1);
+                    if (resultat == true)
+                        R = "";
+                    else if (resultat == false)
+                        R = "no ";
+                    R = "El numero " + R +"és primer.";
                     Timer(R);
                     break;
                 case "8":
-                    DemanarValors();
+                    num1 = DemanarValors();
+                    num2 = DemanarValors();
                     NPrimersPrimers();
                     Timer(R);
                     break;
                 case "0":
                     Console.WriteLine("Presiona la 'q' per a confirmar.");
-                    R ="Estas sortint del menú d'operacions";
-                    Timer(R);
-                    R = "0";
-                    if (R == "0")
-                        return R;
+                    char lletra='0';
+                    resultat = Sortida(lletra);
+                    if (resultat == true)
+                    {
+                        R = "Estas sortint del menú d'operacions";
+                        Timer(R);
+                        R = "0";
+                        if (R == "0")
+                            return R;
+                    }
+                    else
+                        Main(R="");
                     break;
                 default:
                     R="Introdueix una opció vàlida,sisplau";
@@ -108,7 +126,10 @@ namespace Menu_Emma_Joaquim
         //Maxim
         static int DemanarValors()
         {
-
+            int num;
+            Console.Write("Introdueix un valor: ");
+            num = Convert.ToInt32(Console.ReadLine());
+            return num;
         }
         static void Timer(string R)
         {
@@ -171,21 +192,45 @@ namespace Menu_Emma_Joaquim
         {
         }
         //EsPrimer
-        static int EsPrimer(int num)
+        static bool EsPrimer(int num)
         {
+            int nombreDivisors = 0;
+            bool resultat;
+            //Fer algorisme
+            //Demanar valors de sortida
+            for (int i = 1; i <= num / 2 && nombreDivisors == 0; i++)
+            {
+                if (num % i == 0)
+                {
+                    //Donar valors de sortida
+                    nombreDivisors++;
+                }
+            }
+            if (nombreDivisors == 0)
+            {
+                Console.WriteLine("Es primer");
+                resultat = true;
+            }
+            else
+            {
+                Console.WriteLine("No es primer");
+                resultat = false;
+            }
+            return resultat;
         }
         //NPrimersPrimers
         static double NPrimersPrimers(int n, int m)
         {
         }
 
-        static char Sortida(char q)
+        static bool Sortida(char q)
         {
             q = Convert.ToChar(Console.ReadLine);
-            if (q == q)
-            {
-                Menu();
-            }
+            if (q == 'q' || q == 'Q')
+                return true;
+            else
+                Console.WriteLine("Cancelat.");
+            return false;
         }
     }
 }
