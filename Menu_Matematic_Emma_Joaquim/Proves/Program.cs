@@ -1,4 +1,6 @@
-﻿namespace Proves
+﻿using System;
+
+namespace Proves
 {
     internal class Program
     {
