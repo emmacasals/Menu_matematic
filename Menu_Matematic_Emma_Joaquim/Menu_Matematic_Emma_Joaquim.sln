@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Menu_Emma_Joaquim", "Menu_Emma_Joaquim\Menu_Emma_Joaquim.csproj", "{54C4360D-EE9A-47C0-BFC2-9346B337AC4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proves", "Proves\Proves.csproj", "{99FDB2CF-0BB0-4DCC-80BB-BC079C56F3A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54C4360D-EE9A-47C0-BFC2-9346B337AC4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C4360D-EE9A-47C0-BFC2-9346B337AC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C4360D-EE9A-47C0-BFC2-9346B337AC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C4360D-EE9A-47C0-BFC2-9346B337AC4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99FDB2CF-0BB0-4DCC-80BB-BC079C56F3A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99FDB2CF-0BB0-4DCC-80BB-BC079C56F3A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99FDB2CF-0BB0-4DCC-80BB-BC079C56F3A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99FDB2CF-0BB0-4DCC-80BB-BC079C56F3A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AC04A64-E9A9-44B0-92DA-0E97E7449306}
+	EndGlobalSection
+EndGlobal
