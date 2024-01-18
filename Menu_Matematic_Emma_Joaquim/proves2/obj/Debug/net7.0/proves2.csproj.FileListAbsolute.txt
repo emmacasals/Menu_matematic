@@ -1,0 +1,14 @@
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\proves2\obj\Debug\net7.0\proves2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\proves2\obj\Debug\net7.0\proves2.AssemblyInfoInputs.cache
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\proves2\obj\Debug\net7.0\proves2.AssemblyInfo.cs
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\proves2\obj\Debug\net7.0\proves2.csproj.CoreCompileInputs.cache
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\proves2\bin\Debug\net7.0\proves2.exe
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\proves2\bin\Debug\net7.0\proves2.deps.json
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\proves2\bin\Debug\net7.0\proves2.runtimeconfig.json
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\proves2\bin\Debug\net7.0\proves2.dll
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\proves2\bin\Debug\net7.0\proves2.pdb
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\proves2\obj\Debug\net7.0\proves2.dll
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\proves2\obj\Debug\net7.0\refint\proves2.dll
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\proves2\obj\Debug\net7.0\proves2.pdb
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\proves2\obj\Debug\net7.0\proves2.genruntimeconfig.cache
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\proves2\obj\Debug\net7.0\ref\proves2.dll

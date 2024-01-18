@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Menu_Emma_Joaquim", "Menu_E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proves", "Proves\Proves.csproj", "{99FDB2CF-0BB0-4DCC-80BB-BC079C56F3A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proves1", "proves1\proves1.csproj", "{02E3E31D-B4F5-461D-B6FA-03447319235E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "proves1", "proves1\proves1.csproj", "{02E3E31D-B4F5-461D-B6FA-03447319235E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proves2", "proves2\proves2.csproj", "{3F15754C-CA82-43D9-BF8E-B6D674B43547}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{02E3E31D-B4F5-461D-B6FA-03447319235E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02E3E31D-B4F5-461D-B6FA-03447319235E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02E3E31D-B4F5-461D-B6FA-03447319235E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F15754C-CA82-43D9-BF8E-B6D674B43547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F15754C-CA82-43D9-BF8E-B6D674B43547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F15754C-CA82-43D9-BF8E-B6D674B43547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F15754C-CA82-43D9-BF8E-B6D674B43547}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
