@@ -10,12 +10,15 @@ menú.*/
 //MAIN:Fem la crida de les altres funcions 
 static void Main(string[] args)
 {
-    int R=1;
+    string R;
     do
+    {
+        R="";
         Menu(R);
-    while (R != 0);
+    }
+    while (R != "0");
 }
-static int Menu(int R)
+static void Menu(string R)
 {
     //Crear un menu. Et te que tornar el numero que has posat en el menu per saber quan el programa pot parar (quan poses 0).
     Console.Clear();
@@ -30,7 +33,7 @@ static int Menu(int R)
         "\n 7.-ES PRIMER" +
         "\n 8.-NPRIMERS PRIMERS" +
         "\n 9.-SORTIDA \n");
-    Console.WriteLine("Selecciona la opció que desitja: ");
+    Console.Write("Selecciona la opció que desitja: ");
     R = Convert.ToInt32(Console.ReadLine());
     if (R == 0)
         return R;
@@ -38,39 +41,53 @@ static int Menu(int R)
     {
         case 1:
             Maxim();
+            Timer();
             break;
         case 2:
             MCD();
+            Timer();
             break;
         case 3:
             MCM();
+            Timer();
             break;
         case 4:
             Factorial();
+            Timer();
             break;
         case 5:
             Combinatori();
+            Timer();
             break;
         case 6:
             MostrarDivisorMajor();
+            Timer();
             break;
         case 7:
             EsPrimer();
+            Timer();
             break;
         case 8:
             NPrimersPrimers();
+            Timer();
             break;
         case 9:
             Console.WriteLine("Estas sortint del menú d'operacions");
+            Timer();
             break;
         default:
             Console.WriteLine("Introdueix una opció vàlida,sisplau");
+            Timer();
             break;
     }
     Console.ReadKey();
     return R;
 }
 //Maxim
+static void Timer()
+{
+
+}
 static int Maxim(int num)
 {
   
@@ -138,3 +155,18 @@ static double Combinatori(int n, int m)
 {
 
 }
+static int MostrarDivisorMajor(int num)
+{
+
+}
+static int EsPrimer(int num)
+{
+
+}
+static int NPrimersPrimers(int num)
+{
+
+}
+//Console.WindowHeight = 15    (Separar l'altura i amplada)
+//Console.WindowWidth = 60
+//Crear un timer per a mostrar el resultat abans de tornar al menu.
