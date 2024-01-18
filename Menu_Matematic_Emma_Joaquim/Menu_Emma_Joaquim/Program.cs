@@ -6,13 +6,11 @@ ser validades per algunes de les funcions de validació. Cal presentar un projec
 les funcions i accions proposades a més a més del programa principal que implementa el
 menú.*/
 
-
-//no usar instruciones nivel superior
-
-/*class program
-static consolecolor color menu= consolecolor.cyan;
-    */
-
+namespace Menu_Emma_Joaquim
+{
+    class Program
+    {
+        static ConsoleColor colorMenu = ConsoleColor.Green; 
 
 //dissabte a les 23:59
 
@@ -21,7 +19,7 @@ static void Main(string[] args)
 {
     int R = 1;
     do
-    Menu(R);
+        Menu(R);
     while (R != 0);
 }
 
@@ -41,7 +39,7 @@ static int Menu(int R)
         "\n 8.-NPRIMERS PRIMERS" +
         "\n 9.-SORTIDA \n");
     Console.WriteLine("Selecciona la opció que desitja: ");
-   R=Convert.ToInt32(Console.ReadLine());
+    R = Convert.ToInt32(Console.ReadLine());
 
     if (R == 0)
         return R;
@@ -62,7 +60,7 @@ static int Menu(int R)
             break;
         case 5:
             Combinatori();
-            break; 
+            break;
         case 6:
             MostrarDivisorMajor();
             break;
@@ -87,15 +85,15 @@ static int Menu(int R)
 static int Maxim(int num1, int num2)
 {
     Console.WriteLine("Sisplau introdueix un número per dir-te quin és el màxim");
-    num1=Convert.ToInt32(Console.ReadLine());
-    num2= Convert.ToInt32(Console.ReadLine());
-    if (num1>num2)
+    num1 = Convert.ToInt32(Console.ReadLine());
+    num2 = Convert.ToInt32(Console.ReadLine());
+    if (num1 > num2)
     {
         Console.WriteLine("");
     }
-    else if (num2>num1)
+    else if (num2 > num1)
     {
-    
+
     }
 }
 //Mcd
@@ -149,11 +147,12 @@ static double NPrimersPrimers(int n, int m)
 {
 }
 
-static char Sortida (char q)
+static char Sortida(char q)
 {
-    q= Convert.ToChar(Console.ReadLine);
+    q = Convert.ToChar(Console.ReadLine);
     if (q == q)
     {
         Menu();
     }
+}
 }
