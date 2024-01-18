@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\quimd\\Desktop\\Info_DAW1\\M5-M3_MENU_MATEMATIC\\Menu_Matematic_Emma_Joaquim\\Menu_Emma_Joaquim\\Menu_Emma_Joaquim.csproj",
-      "projectName": "Menu_Emma_Joaquim",
-      "projectPath": "C:\\Users\\quimd\\Desktop\\Info_DAW1\\M5-M3_MENU_MATEMATIC\\Menu_Matematic_Emma_Joaquim\\Menu_Emma_Joaquim\\Menu_Emma_Joaquim.csproj",
+      "projectUniqueName": "C:\\Users\\quimd\\Desktop\\Info_DAW1\\M5-M3_MENU_MATEMATIC\\Menu_Matematic_Emma_Joaquim\\Proves\\Proves.csproj",
+      "projectName": "Proves",
+      "projectPath": "C:\\Users\\quimd\\Desktop\\Info_DAW1\\M5-M3_MENU_MATEMATIC\\Menu_Matematic_Emma_Joaquim\\Proves\\Proves.csproj",
       "packagesPath": "C:\\Users\\quimd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\quimd\\Desktop\\Info_DAW1\\M5-M3_MENU_MATEMATIC\\Menu_Matematic_Emma_Joaquim\\Menu_Emma_Joaquim\\obj\\",
+      "outputPath": "C:\\Users\\quimd\\Desktop\\Info_DAW1\\M5-M3_MENU_MATEMATIC\\Menu_Matematic_Emma_Joaquim\\Proves\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\quimd\\AppData\\Roaming\\NuGet\\NuGet.Config",

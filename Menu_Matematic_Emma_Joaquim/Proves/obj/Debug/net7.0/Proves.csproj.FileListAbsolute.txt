@@ -1,0 +1,14 @@
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Proves\bin\Debug\net7.0\Proves.exe
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Proves\bin\Debug\net7.0\Proves.deps.json
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Proves\bin\Debug\net7.0\Proves.runtimeconfig.json
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Proves\bin\Debug\net7.0\Proves.dll
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Proves\bin\Debug\net7.0\Proves.pdb
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Proves\obj\Debug\net7.0\Proves.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Proves\obj\Debug\net7.0\Proves.AssemblyInfoInputs.cache
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Proves\obj\Debug\net7.0\Proves.AssemblyInfo.cs
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Proves\obj\Debug\net7.0\Proves.csproj.CoreCompileInputs.cache
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Proves\obj\Debug\net7.0\Proves.dll
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Proves\obj\Debug\net7.0\refint\Proves.dll
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Proves\obj\Debug\net7.0\Proves.pdb
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Proves\obj\Debug\net7.0\Proves.genruntimeconfig.cache
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Proves\obj\Debug\net7.0\ref\Proves.dll
