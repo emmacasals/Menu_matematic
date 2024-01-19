@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\quimd\\.nuget\\packages\\": {}
+    "C:\\Users\\winxi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\quimd\\Desktop\\Info_DAW1\\M5-M3_MENU_MATEMATIC\\Menu_Matematic_Emma_Joaquim\\Menu_Emma_Joaquim\\Menu_Emma_Joaquim.csproj",
+      "projectUniqueName": "C:\\Users\\winxi\\Documents\\Treballmenumatematic\\Menu_Matematic_Emma_Joaquim\\Menu_Emma_Joaquim\\Menu_Emma_Joaquim.csproj",
       "projectName": "Menu_Emma_Joaquim",
-      "projectPath": "C:\\Users\\quimd\\Desktop\\Info_DAW1\\M5-M3_MENU_MATEMATIC\\Menu_Matematic_Emma_Joaquim\\Menu_Emma_Joaquim\\Menu_Emma_Joaquim.csproj",
-      "packagesPath": "C:\\Users\\quimd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\quimd\\Desktop\\Info_DAW1\\M5-M3_MENU_MATEMATIC\\Menu_Matematic_Emma_Joaquim\\Menu_Emma_Joaquim\\obj\\",
+      "projectPath": "C:\\Users\\winxi\\Documents\\Treballmenumatematic\\Menu_Matematic_Emma_Joaquim\\Menu_Emma_Joaquim\\Menu_Emma_Joaquim.csproj",
+      "packagesPath": "C:\\Users\\winxi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\winxi\\Documents\\Treballmenumatematic\\Menu_Matematic_Emma_Joaquim\\Menu_Emma_Joaquim\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\quimd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\winxi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

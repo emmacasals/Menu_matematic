@@ -125,9 +125,8 @@ namespace Menu_Emma_Joaquim
         }
 
         //Maxim
-        static int DemanarValors()
+        static int DemanarValors(int num)
         {
-            int num;
             Console.Write("Introdueix un valor: ");
             num = Convert.ToInt32(Console.ReadLine());
             return num;
@@ -209,10 +208,23 @@ namespace Menu_Emma_Joaquim
         }
         //MostrarDivisorMajor
         static int MostrarDivisorMajor(int num)
-        {
+            {
+            int i;
+                for (i = 1; i <= num / 2; i++)
+                {
+                    if (num % i == 0 && i > num / 2)
+                    {
+                      Console.Write(i);
+                    }
+                
+                }
+            return (i);
+            }
         }
-        //EsPrimer
-        static bool EsPrimer(int num)
+
+    }
+    //EsPrimer
+    static bool EsPrimer(int num)
         {
             int nombreDivisors = 0;
             bool resultat;
