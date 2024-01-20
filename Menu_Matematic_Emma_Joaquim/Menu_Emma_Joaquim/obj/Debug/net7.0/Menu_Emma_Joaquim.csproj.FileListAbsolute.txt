@@ -1,0 +1,14 @@
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Menu_Emma_Joaquim\bin\Debug\net7.0\Menu_Emma_Joaquim.exe
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Menu_Emma_Joaquim\bin\Debug\net7.0\Menu_Emma_Joaquim.deps.json
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Menu_Emma_Joaquim\bin\Debug\net7.0\Menu_Emma_Joaquim.runtimeconfig.json
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Menu_Emma_Joaquim\bin\Debug\net7.0\Menu_Emma_Joaquim.dll
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Menu_Emma_Joaquim\bin\Debug\net7.0\Menu_Emma_Joaquim.pdb
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Menu_Emma_Joaquim\obj\Debug\net7.0\Menu_Emma_Joaquim.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Menu_Emma_Joaquim\obj\Debug\net7.0\Menu_Emma_Joaquim.AssemblyInfoInputs.cache
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Menu_Emma_Joaquim\obj\Debug\net7.0\Menu_Emma_Joaquim.AssemblyInfo.cs
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Menu_Emma_Joaquim\obj\Debug\net7.0\Menu_Emma_Joaquim.csproj.CoreCompileInputs.cache
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Menu_Emma_Joaquim\obj\Debug\net7.0\Menu_Emma_Joaquim.dll
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Menu_Emma_Joaquim\obj\Debug\net7.0\refint\Menu_Emma_Joaquim.dll
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Menu_Emma_Joaquim\obj\Debug\net7.0\Menu_Emma_Joaquim.pdb
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Menu_Emma_Joaquim\obj\Debug\net7.0\Menu_Emma_Joaquim.genruntimeconfig.cache
+C:\Users\quimd\Desktop\Info_DAW1\M5-M3_MENU_MATEMATIC\Menu_Matematic_Emma_Joaquim\Menu_Emma_Joaquim\obj\Debug\net7.0\ref\Menu_Emma_Joaquim.dll

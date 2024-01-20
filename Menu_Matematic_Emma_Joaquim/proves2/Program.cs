@@ -14,18 +14,19 @@
         {
             //Crear un menu. Et te que tornar el numero que has posat en el menu per saber quan el programa pot parar (quan poses 0).
             Console.Clear();
-            Console.WriteLine("MENÚ D'OPCIONS MATEMÀTIQUES");
-            Console.WriteLine("\n" +
-                "\n 1.-MAXIM" +
-                "\n 2.-MCD" +
-                "\n 3.-MCM" +
-                "\n 4.-FACTORIAL" +
-                "\n 5.-COMBINATORI" +
-                "\n 6.-MOSTRAR DIVISOR MAJOR" +
-                "\n 7.-ES PRIMER" +
-                "\n 8.-NPRIMERS PRIMERS" +
-                "\n 0.-TANCAR PROGRAMA \n");
-            Console.Write("Selecciona la opció que desitja: ");
+            Console.WriteLine("*-------------------------------------*");
+            Console.WriteLine(" MENÚ D'OPCIONS MATEMÀTIQUES");
+            Console.WriteLine("*----------------------------*" +
+                "\n ||  1.-MAXIM" +
+                "\n ||  2.-MCD" +
+                "\n ||  3.-MCM" +
+                "\n ||  4.-FACTORIAL" +
+                "\n ||  5.-COMBINATORI" +
+                "\n ||  6.-MOSTRAR DIVISOR MAJOR" +
+                "\n ||  7.-ES PRIMER" +
+                "\n ||  8.-NPRIMERS PRIMERS" +
+                "\n ||  0.-TANCAR PROGRAMA \n*----------------------------*");
+            Console.Write(" Selecciona l'opció que desitja: ");
             R = Console.ReadLine();
             Console.Clear();
             int num, num1, num2;
