@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\winxi\\.nuget\\packages\\": {}
+    "C:\\Users\\quimd\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\winxi\\Documents\\Treballmenumatematic\\Menu_Matematic_Emma_Joaquim\\Proves\\Proves.csproj",
+      "projectUniqueName": "C:\\Users\\quimd\\Desktop\\Info_DAW1\\M5-M3_MENU_MATEMATIC\\Menu_Matematic_Emma_Joaquim\\Proves\\Proves.csproj",
       "projectName": "Proves",
-      "projectPath": "C:\\Users\\winxi\\Documents\\Treballmenumatematic\\Menu_Matematic_Emma_Joaquim\\Proves\\Proves.csproj",
-      "packagesPath": "C:\\Users\\winxi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\winxi\\Documents\\Treballmenumatematic\\Menu_Matematic_Emma_Joaquim\\Proves\\obj\\",
+      "projectPath": "C:\\Users\\quimd\\Desktop\\Info_DAW1\\M5-M3_MENU_MATEMATIC\\Menu_Matematic_Emma_Joaquim\\Proves\\Proves.csproj",
+      "packagesPath": "C:\\Users\\quimd\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\quimd\\Desktop\\Info_DAW1\\M5-M3_MENU_MATEMATIC\\Menu_Matematic_Emma_Joaquim\\Proves\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\winxi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\quimd\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

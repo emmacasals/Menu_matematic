@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\winxi\\Documents\\Treballmenumatematic\\Menu_Matematic_Emma_Joaquim\\proves2\\proves2.csproj": {}
+    "C:\\Users\\quimd\\Desktop\\Info_DAW1\\M5-M3_MENU_MATEMATIC\\Menu_Matematic_Emma_Joaquim\\proves2\\proves2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\winxi\\Documents\\Treballmenumatematic\\Menu_Matematic_Emma_Joaquim\\proves2\\proves2.csproj": {
+    "C:\\Users\\quimd\\Desktop\\Info_DAW1\\M5-M3_MENU_MATEMATIC\\Menu_Matematic_Emma_Joaquim\\proves2\\proves2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\winxi\\Documents\\Treballmenumatematic\\Menu_Matematic_Emma_Joaquim\\proves2\\proves2.csproj",
+        "projectUniqueName": "C:\\Users\\quimd\\Desktop\\Info_DAW1\\M5-M3_MENU_MATEMATIC\\Menu_Matematic_Emma_Joaquim\\proves2\\proves2.csproj",
         "projectName": "proves2",
-        "projectPath": "C:\\Users\\winxi\\Documents\\Treballmenumatematic\\Menu_Matematic_Emma_Joaquim\\proves2\\proves2.csproj",
-        "packagesPath": "C:\\Users\\winxi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\winxi\\Documents\\Treballmenumatematic\\Menu_Matematic_Emma_Joaquim\\proves2\\obj\\",
+        "projectPath": "C:\\Users\\quimd\\Desktop\\Info_DAW1\\M5-M3_MENU_MATEMATIC\\Menu_Matematic_Emma_Joaquim\\proves2\\proves2.csproj",
+        "packagesPath": "C:\\Users\\quimd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\quimd\\Desktop\\Info_DAW1\\M5-M3_MENU_MATEMATIC\\Menu_Matematic_Emma_Joaquim\\proves2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\winxi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\quimd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

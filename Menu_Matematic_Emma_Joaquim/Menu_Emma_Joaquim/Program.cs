@@ -6,6 +6,7 @@ ser validades per algunes de les funcions de validació. Cal presentar un projec
 les funcions i accions proposades a més a més del programa principal que implementa el
 menú.*/
 
+using System;
 using System.Threading.Channels;
 
 namespace Menu_Emma_Joaquim
@@ -13,34 +14,37 @@ namespace Menu_Emma_Joaquim
     class Program
     {
         static ConsoleColor colorMenu = ConsoleColor.Green;
-
+        static ConsoleColor colorCase = ConsoleColor.Cyan;
         //dissabte a les 23:59
 
         //MAIN:Fem la crida de les altres funcions 
         static void Main(string[] args)
         {
+            Console.ForegroundColor = colorMenu;
             string R = "";
             do
                 Menu(R);
-            while (R != "0");
+            while (R != "q");
         }
 
         static string Menu(string R)
         {
             //Crear un menu. Et te que tornar el numero que has posat en el menu per saber quan el programa pot parar (quan poses 0).
             Console.Clear();
-            Console.WriteLine("MENÚ D'OPCIONS MATEMÀTIQUES");
-            Console.WriteLine("\n" +
-                "\n 1.-MAXIM" +
-                "\n 2.-MCD" +
-                "\n 3.-MCM" +
-                "\n 4.-FACTORIAL" +
-                "\n 5.-COMBINATORI" +
-                "\n 6.-MOSTRAR DIVISOR MAJOR" +
-                "\n 7.-ES PRIMER" +
-                "\n 8.-NPRIMERS PRIMERS" +
-                "\n 0.-TANCAR PROGRAMA \n");
-            Console.Write("Selecciona la opció que desitja: ");
+            Console.ForegroundColor = colorMenu;
+            Console.WriteLine("*-------------------------------------*");
+            Console.WriteLine(" MENÚ D'OPCIONS MATEMÀTIQUES");
+            Console.WriteLine("*----------------------------*" +
+                "\n ||  1.-MAXIM" +
+                "\n ||  2.-MCD" +
+                "\n ||  3.-MCM" +
+                "\n ||  4.-FACTORIAL" +
+                "\n ||  5.-COMBINATORI" +
+                "\n ||  6.-MOSTRAR DIVISOR MAJOR" +
+                "\n ||  7.-ES PRIMER" +
+                "\n ||  8.-NPRIMERS PRIMERS" +
+                "\n ||  0.-TANCAR PROGRAMA \n*----------------------------*");
+            Console.Write(" Selecciona l'opció que desitja: ");
             R = Console.ReadLine();
             Console.Clear();
             int num, num1, num2;
@@ -50,41 +54,34 @@ namespace Menu_Emma_Joaquim
                 case "1":
                     num1 = DemanarValors();
                     num2 = DemanarValors();
-                    num=Maxim(num1, num2);
+                    num = Maxim(num1, num2);
                     R = "El màxim és: " + num;
-                    Timer(R);
                     break;
                 case "2":
-                    num1=DemanarValors();
-                    num2=DemanarValors();
+                    num1 = DemanarValors();
+                    num2 = DemanarValors();
                     num = MCD(num1, num2);
-                    R = "El maxim comú divisor de " + num1 + " i " + num2 + " és: " + num; 
-                    Timer(R);
+                    R = "El maxim comú divisor de " + num1 + " i " + num2 + " és: " + num;
                     break;
                 case "3":
                     num1 = DemanarValors();
                     num2 = DemanarValors();
-                    num = MCM(num1,num2);
+                    num = MCM(num1, num2);
                     R = "El minim comú múltiple de " + num1 + " i " + num2 + " és: " + num;
-                    Timer(R);
                     break;
                 case "4":
                     num1 = DemanarValors();
-                    num2 = DemanarValors();
-                    Factorial();
-                    Timer(R);
+                    Factorial(num1);
                     break;
                 case "5":
                     num1 = DemanarValors();
                     num2 = DemanarValors();
-                    Combinatori();
-                    Timer(R);
+                    Combinatori(num1, num2);
                     break;
                 case "6":
                     num1 = DemanarValors();
                     num = MostrarDivisorMajor(num1);
                     R = "El divisor major és: " + num;
-                    Timer(R);
                     break;
                 case "7":
                     num1 = DemanarValors();
@@ -93,49 +90,39 @@ namespace Menu_Emma_Joaquim
                         R = "";
                     else if (resultat == false)
                         R = "no ";
-                    R = "El numero " + R +"és primer.";
-                    Timer(R);
+                    R = "El numero " + R + "és primer.";
                     break;
                 case "8":
                     num1 = DemanarValors();
-                    num2 = DemanarValors();
-                    NPrimersPrimers();
-                    Timer(R);
+                    NPrimersPrimers(num1);
                     break;
                 case "0":
-                    Console.WriteLine("Presiona la 'q' per a confirmar.");
-                    char lletra='0';
-                    resultat = Sortida(lletra);
+                    resultat = Sortida();
                     if (resultat == true)
                     {
-                        R = "Estas sortint del menú d'operacions";
-                        Timer(R);
-                        R = "0";
-                        if (R == "0")
+                        Console.WriteLine("Estas sortint del menú d'operacions");
+                        R = "q";
+                        if (R == "q")
                             return R;
-                    }
+                    }/*En la prova2 funciona el menú de sortida però no entren els valors en el if. Hem probat a canviar les variables que retornava entre d'altres però
+                      * seguia sense funcionar i l'hem deixat com a la prova2 al final.*/
                     break;
                 default:
-                    R="Introdueix una opció vàlida,sisplau";
-                    Timer(R);
+                    R = "Introdueix una opció vàlida,sisplau";
                     break;
             }
             Console.ReadKey();
             return R;
         }
-
-        //Maxim
-        static int DemanarValors(int num)
+        static int DemanarValors()
         {
+            Console.ForegroundColor = colorCase;
+            int num;
             Console.Write("Introdueix un valor: ");
             num = Convert.ToInt32(Console.ReadLine());
             return num;
         }
-        static void Timer(string R)
-        {
-            //temp 3-5 segons
-            Console.WriteLine(R);
-        }
+        //Màxim
         static int Maxim(int num1, int num2)
         {
             int num = 0;
@@ -177,7 +164,6 @@ namespace Menu_Emma_Joaquim
             return mcm;
         }
         //Factorial
-        //Aquesta es la més correcta
         static int Factorial(int num)
         {
 
@@ -186,20 +172,7 @@ namespace Menu_Emma_Joaquim
                 res *= i;
             return res;
         }
-        /*
-        static double Factorial(double num)
-        {
-
-            int res = 1;
-            for (int i = 1; i <= num; i++)
-                res *= i;
-            return res;
-        }
-        */
-
-
         //Combinatori
-        //COMBINATORI FACTORIAL
         static double Combinatori(int n, int m)
         {
             double resultat;
@@ -208,33 +181,27 @@ namespace Menu_Emma_Joaquim
         }
         //MostrarDivisorMajor
         static int MostrarDivisorMajor(int num)
-            {
+        {
             int i;
-                for (i = 1; i <= num / 2; i++)
+            for (i = 1; i <= num / 2; i++)
+            {
+                if (num % i == 0 && i > num / 2)
                 {
-                    if (num % i == 0 && i > num / 2)
-                    {
-                      Console.Write(i);
-                    }
-                
+                    Console.Write(i);
                 }
-            return (i);
-            }
-        }
 
-    }
-    //EsPrimer
-    static bool EsPrimer(int num)
+            }
+            return (i);
+        }
+        //EsPrimer
+        static bool EsPrimer(int num)
         {
             int nombreDivisors = 0;
             bool resultat;
-            //Fer algorisme
-            //Demanar valors de sortida
             for (int i = 1; i <= num / 2 && nombreDivisors == 0; i++)
             {
                 if (num % i == 0)
                 {
-                    //Donar valors de sortida
                     nombreDivisors++;
                 }
             }
@@ -251,18 +218,44 @@ namespace Menu_Emma_Joaquim
             return resultat;
         }
         //NPrimersPrimers
-        static double NPrimersPrimers(int n, int m)
+        static string NPrimersPrimers(int num)
         {
+            int nombreDivisors = 0, posibleprimer = 2;
+            string primers = "";
+            for (int cont = 0;cont<num ; posibleprimer++)
+            {
+                for (int i = 1; i <= posibleprimer / 2 && nombreDivisors == 0; i++)
+                {
+                    if (posibleprimer % i == 0)
+                    {
+                        nombreDivisors++;
+                    }
+                }
+                if (nombreDivisors == 0)
+                {
+                    cont++;
+                    if (cont == 1)
+                        primers = "" + posibleprimer;
+                    else
+                        primers = primers + ", " + posibleprimer;
+                }
+            }
+            return primers;
         }
-
-        static bool Sortida(char q)
+        static bool Sortida()
         {
+            char q;
+            bool res;
+            Console.WriteLine("Presiona la 'q' per a confirmar.");
             q = Convert.ToChar(Console.ReadLine());
             if (q == 'q' || q == 'Q')
-                return true;
+                res = true;
             else
+            {
                 Console.WriteLine("Cancelat.");
-            return false;
+                res = false;
+            }
+            return res;
         }
     }
 }
